@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xcode"
+version = "0.1.0"
+description = "Xcode - a Cloud Code style local CLI agent with skills"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Xcode Team" }
+]
+dependencies = [
+  "typer>=0.12.3",
+  "rich>=13.7.1",
+  "openai>=1.40.0",
+  "prompt-toolkit>=3.0.47",
+  "pygments>=2.17.0",
+  "websocket-client>=1.8.0",
+  "mcp>=1.0.0",
+]
+
+[project.scripts]
+xcode = "xcode_cli.main:app"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

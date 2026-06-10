@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "fake": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["${workspace}\\examples\\fake_mcp_server.py"],
+      "cwd": "${workspace}",
+      "env": {
+        "FAKE_MCP_LOG": "${workspace}\\examples\\fake_mcp_server.log"
+      }
+    }
+  },
+  "max_mcp_output_chars": 20000
+}

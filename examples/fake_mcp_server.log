@@ -1,0 +1,35 @@
+2026-06-09T16:33:48 start
+2026-06-09T16:33:48 notification notifications/initialized
+2026-06-09T16:37:40 call echo {"text": "hello"}
+2026-06-09T17:17:29 call long_output {}
+2026-06-09T17:18:36 start
+2026-06-09T17:18:36 notification notifications/initialized
+2026-06-09T19:30:22 stop
+2026-06-09T19:50:31 start
+2026-06-09T19:50:31 notification notifications/initialized
+2026-06-09T19:51:09 stop
+2026-06-09T19:51:10 start
+2026-06-09T19:51:10 notification notifications/initialized
+2026-06-09T19:51:19 stop
+2026-06-09T19:51:19 start
+2026-06-09T19:51:19 notification notifications/initialized
+2026-06-10T09:49:02 stop
+2026-06-10T09:49:07 start
+2026-06-10T09:49:07 notification notifications/initialized
+2026-06-10T10:25:18 stop
+2026-06-10T10:25:23 start
+2026-06-10T10:25:23 notification notifications/initialized
+2026-06-10T14:49:58 start
+2026-06-10T14:49:58 notification notifications/initialized
+2026-06-10T14:55:05 start
+2026-06-10T14:55:05 notification notifications/initialized
+2026-06-10T14:55:20 stop
+2026-06-10T14:55:20 start
+2026-06-10T14:55:20 notification notifications/initialized
+2026-06-10T14:55:24 stop
+2026-06-10T14:55:27 start
+2026-06-10T14:55:27 notification notifications/initialized
+2026-06-10T14:55:31 stop
+2026-06-10T15:22:11 stop
+2026-06-10T15:22:15 start
+2026-06-10T15:22:15 notification notifications/initialized
